@@ -1,5 +1,5 @@
 public class ArrayRemovalExample {
-    
+
     public static int[] removeArrayElement(int[] array, int index) {
         // Check if the index is valid
         if (index >= 0 && index < array.length) {
@@ -15,7 +15,6 @@ public class ArrayRemovalExample {
                 newArray[j] = array[i];
                 j++;
             }
-
             return newArray;
         } else {
             System.out.println("Invalid index!");
